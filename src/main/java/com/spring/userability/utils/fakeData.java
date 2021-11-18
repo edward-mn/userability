@@ -20,18 +20,18 @@ public class fakeData {
   public void savePosts(){
     List<User> userList = new ArrayList<>();
 
-    User firstUser = new User(
-        "Vagner Souza",
-        "User",
-        LocalDate.now());
+//    User firstUser = new User(
+//        "Vagner Souza",
+//        "User",
+//        LocalDate.now());
+//
+//    User secondUser = new User(
+//        "Roger Melo",
+//        "User",
+//        LocalDate.now());
 
-    User secondUser = new User(
-        "Roger Melo",
-        "User",
-        LocalDate.now());
-
-    userList.add(firstUser);
-    userList.add(secondUser);
+//    userList.add(firstUser);
+//    userList.add(secondUser);
 
     for(User user: userList){
       User userSaved = userRepository.save(user);
