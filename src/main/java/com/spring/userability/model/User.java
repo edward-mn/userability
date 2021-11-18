@@ -23,6 +23,22 @@ public class User {
   @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "dd-MM-yyyy")
   private LocalDate date;
 
+  public User(String name, String permission, LocalDate date) {
+    this.name = name;
+    this.permission = permission;
+    this.date = date;
+  }
+
+  @Override
+  public String toString() {
+    return "User{ " +
+        "id=" + id +
+        ", name='" + name + '\'' +
+        ", permission='" + permission + '\'' +
+        ", date=" + date +
+        '}';
+  }
+
   public Long getId() {
     return id;
   }

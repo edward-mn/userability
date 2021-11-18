@@ -16,29 +16,26 @@ public class fakeData {
   @Autowired
   UserabilityRepository userRepository;
 
-  @PostConstruct
+//  @PostConstruct
   public void savePosts(){
     List<User> userList = new ArrayList<>();
 
-    User firstUser = new User();
-    firstUser.setName("Edward Moreira");
-    firstUser.setPermission("Super Admin");
-    firstUser.setDate(LocalDate.now());
+    User firstUser = new User(
+        "Vagner Souza",
+        "User",
+        LocalDate.now());
 
-
-    User secondUser = new User();
-    secondUser.setName("Roger Melo");
-    secondUser.setPermission("Admin");
-    secondUser.setDate(LocalDate.now());
+    User secondUser = new User(
+        "Roger Melo",
+        "User",
+        LocalDate.now());
 
     userList.add(firstUser);
     userList.add(secondUser);
 
-    System.out.println("The List --- " + userList);
-
     for(User user: userList){
       User userSaved = userRepository.save(user);
-      System.out.println("User ID: " + userSaved.getId());
+      System.out.println(userSaved.toString() + "\n");
     }
   }
 }
