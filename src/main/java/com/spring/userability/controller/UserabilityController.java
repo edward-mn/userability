@@ -43,4 +43,13 @@ public class UserabilityController {
 
     return "redirect:/users";
   }
+
+  @RequestMapping(value = "/delete", method = RequestMethod.GET)
+  public String deleteUser(long id){
+    User user = userService.findById(id);
+    userService.delete(user.getId());
+
+    return "redirect:/users";
+  }
+
 }
