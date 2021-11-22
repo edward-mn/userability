@@ -53,7 +53,7 @@ public class UserabilityServiceImpl implements UserabilityService {
   public User refresh(long id, Map<String, Object> request) {
     // String, Object -> key : value (JSON)
 
-    User aUser = userRepository.findById(id).orElseThrow(() -> {
+    /*User aUser = userRepository.findById(id).orElseThrow(() -> {
       throw new ResponseStatusException(HttpStatus.NOT_FOUND, "ID not found.");
     });
 
@@ -63,7 +63,8 @@ public class UserabilityServiceImpl implements UserabilityService {
       ReflectionUtils.setField(field, aUser, value);
     });
 
-    return userRepository.save(aUser);
+    return userRepository.save(aUser);*/
+    return null;
   }
 
 }
