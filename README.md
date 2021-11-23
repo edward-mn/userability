@@ -51,16 +51,16 @@ To run this project, you will need of following tools installed on your machine:
 
 ## 🖥 Functionalities
 
-####C
+#### C
 - Create new Users
   - POST
-####R
+#### R
 - Read a User
   - GET
-####U
+#### U
 - Update specific User
   - PUT
-####D
+#### D
 - Delete User
   - DELETE
 
