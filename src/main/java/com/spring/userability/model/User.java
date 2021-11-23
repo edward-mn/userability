@@ -23,11 +23,11 @@ public class User {
   @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "dd-MM-yyyy")
   private LocalDate date;
 
-//  public User(String name, String permission, LocalDate date) {
-//    this.name = name;
-//    this.permission = permission;
-//    this.date = date;
-//  }
+  public User(String name, String permission, LocalDate date) {
+    this.name = name;
+    this.permission = permission;
+    this.date = date;
+  }
 
   @Override
   public String toString() {

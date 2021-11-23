@@ -21,6 +21,11 @@ public class UserabilityController {
   @Autowired
   UserabilityService userService;
 
+  @RequestMapping(value = "/", method = RequestMethod.GET)
+  public ModelAndView getIndex(){
+    return getPosts();
+  }
+
   @RequestMapping(value = "/users", method = RequestMethod.GET)
   public ModelAndView getPosts(){
     ModelAndView mv = new ModelAndView("users");
