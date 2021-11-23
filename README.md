@@ -27,7 +27,7 @@ It includes:
 ## 👨‍💻 Software
 
 <p align="center">
-  <img src="./path" alt="Overview GIF - Userability"/>
+  <img src="./src/main/resources/static/userability.gif" alt="Overview GIF - Userability"/>
 </p>
 
 ---
@@ -51,17 +51,17 @@ To run this project, you will need of following tools installed on your machine:
 
 ## 🖥 Functionalities
 
-####C
-- Create new Users
+#### C
+- Create new User
   - POST
-####R
+#### R
 - Read a User
   - GET
-####U
+#### U
 - Update specific User
   - PUT
-####D
-- Delete User
+#### D
+- Delete specific User
   - DELETE
 
 > WEB & Postman
@@ -75,7 +75,7 @@ To run this project, you will need of following tools installed on your machine:
 4. After the project loaded in your IDE click with the right button on the project name -> Maven -> Reinport to confirm the necessary imports.
 5. Click on the top right of your ide (ADD CONFIGURATIONS) -> (+) -> Maven.
 6. In the "Command Line" field add (spring-boot:run) -> Apply -> OK.
-7. Ready now, just run the program and the server is running on port 8081.
+7. Ready now, just run the program and the server is running on port 8080.
 
 ### How to execute🏃
 1. Via Postaman
@@ -95,6 +95,8 @@ To run this project, you will need of following tools installed on your machine:
 ## 🛠 Technologies
 - [IntelliJ IDEA](https://www.jetbrains.com/idea/)
 - [Java 16 & Kit](https://www.oracle.com/java/technologies/javase/jdk16-archive-downloads.html)
+- [Spring boot](https://spring.io/projects/spring-boot)
+- [Postgre SQL](https://www.postgresql.org/)
 - [Bootstrap 5.1](https://getbootstrap.com/docs/5.1/getting-started/introduction/)
 - [Google Icons](https://fonts.google.com/icons?selected=Material+Icons&icon.query=new)
 - [Postman](https://www.postman.com/)
