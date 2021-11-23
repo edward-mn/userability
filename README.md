@@ -27,7 +27,7 @@ It includes:
 ## 👨‍💻 Software
 
 <p align="center">
-  <img src="./path" alt="Overview GIF - Userability"/>
+  <img src="./src/main/resources/static/userability.gif" alt="Overview GIF - Userability"/>
 </p>
 
 ---
@@ -75,7 +75,7 @@ To run this project, you will need of following tools installed on your machine:
 4. After the project loaded in your IDE click with the right button on the project name -> Maven -> Reinport to confirm the necessary imports.
 5. Click on the top right of your ide (ADD CONFIGURATIONS) -> (+) -> Maven.
 6. In the "Command Line" field add (spring-boot:run) -> Apply -> OK.
-7. Ready now, just run the program and the server is running on port 8081.
+7. Ready now, just run the program and the server is running on port 8080.
 
 ### How to execute🏃
 1. Via Postaman
