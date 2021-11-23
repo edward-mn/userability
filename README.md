@@ -96,6 +96,7 @@ To run this project, you will need of following tools installed on your machine:
 - [IntelliJ IDEA](https://www.jetbrains.com/idea/)
 - [Java 16 & Kit](https://www.oracle.com/java/technologies/javase/jdk16-archive-downloads.html)
 - [Spring boot](https://spring.io/projects/spring-boot)
+- [Postgre SQL](https://www.postgresql.org/)
 - [Bootstrap 5.1](https://getbootstrap.com/docs/5.1/getting-started/introduction/)
 - [Google Icons](https://fonts.google.com/icons?selected=Material+Icons&icon.query=new)
 - [Postman](https://www.postman.com/)
