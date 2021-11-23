@@ -1,0 +1,155 @@
+{
+	"info": {
+		"_postman_id": "e3771697-197d-43f9-ad16-b2288f5d5e3e",
+		"name": "To export - userability",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get all users",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://userability.herokuapp.com/api/users",
+					"protocol": "https",
+					"host": [
+						"userability",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get user by ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://userability.herokuapp.com/api/user/6",
+					"protocol": "https",
+					"host": [
+						"userability",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"user",
+						"6"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete a user by ID",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://userability.herokuapp.com/api/user/6",
+					"protocol": "https",
+					"host": [
+						"userability",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"user",
+						"6"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add user",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"name\": \"Add Postman\",\n  \"permission\": \"User\",\n  \"date\": \"23-11-2021\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://userability.herokuapp.com/api/user",
+					"protocol": "https",
+					"host": [
+						"userability",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"user"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update user by id",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"name\": \"Add Postman - PUT\",\n  \"permission\": \"User\",\n  \"date\": \"23-11-2021\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://userability.herokuapp.com/api/user/6",
+					"protocol": "https",
+					"host": [
+						"userability",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"user",
+						"6"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
