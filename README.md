@@ -21,7 +21,7 @@ The main idea it was, put all my actual knowledge developing a microservice focu
 
 It includes:
 - CRUD;
-- API (REST/RESTfull);
+- API (REST / RESTfull);
 - Swagger
 
 ## 👨‍💻 Software
@@ -81,11 +81,11 @@ To run this project, you will need of following tools installed on your machine:
 1. Via Postaman
     1. Open the postman.
     2. In the upper left corner click (Import) -> Choose Files -> Go to where you extracted the project and the select the userability.postman_collection.json file.
-    3. Select the endpoint you want within the imported userability.postman_collection.json collection and click send.
+    3. Select the endpoint you want within the imported [userability.postman_collection.json](userability.postman_collection.json) collection and click send.
         1. Pay attention and make changes when you are consuming de User API
 2. WEB
     1. After run the application (<i> ./mvnw spring-boot:run</i> )
-    2. Open your browser into port 8080 (http://localhost:8080/)
+    2. Open your browser into port 8080 (<i> http://localhost:8080/ </i>)
     3. Or use the heroku deployment bellow
         1. APP -> https://userability.herokuapp.com/users
         2. Swagger -> https://userability.herokuapp.com/swagger-ui.html
