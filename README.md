@@ -27,7 +27,7 @@ It includes:
 ## 👨‍💻 Software
 
 <p align="center">
-  <img src="./src/main/resources/static/userability.gif" alt="Overview GIF - Userability"/>
+  <img src="./src/main/resources/static/userability_app.gif" alt="Overview GIF - Userability"/>
 </p>
 
 ---
