@@ -10,13 +10,13 @@
     <a href="#-functionalities">Functionalities</a> |
     <a href="#-technologies">Technologies</a> |
     <a href="#-how-to-download-and-execute">How to execute</a> | 
-    <a href="#-important-links">Important links</a> | 
+    <a href="#-demo">Important links</a> | 
     <a href="#-author">Author</a> | 
     <a href="#-show-your-support">Suport</a>
   </p>
 </strong>
 
-## :information: About
+## 🧐 About
 The main idea it was, put all my actual knowledge developing a microservice focused on user control.
 
 It includes:
@@ -26,16 +26,23 @@ It includes:
 
 ## 👨‍💻 Software
 
-### Visão geral 👀
-
 <p align="center">
   <img src="./path" alt="Overview GIF - Userability"/>
 </p>
 
 ---
 
+### Demo 👀
+ #### 🕹  The app 
+- [**Link**](https://userability.herokuapp.com/users)
+ #### 📄 Swagger documentation
+- [**Link**](https://userability.herokuapp.com/swagger-ui.html)
+
+---
+
 ## ❗ Dependencies
-To run this project, you will need of following tools installed on your machine: 
+To run this project, you will need of following tools installed on your machine:
+- [Java & Kit](https://www.oracle.com/java/technologies/javase/jdk16-archive-downloads.html)
 - [IntelliJ IDEA](https://www.jetbrains.com/idea/)
 - [Maven](https://maven.apache.org/)
 - [Postman](https://www.postman.com/)
