@@ -52,7 +52,7 @@ To run this project, you will need of following tools installed on your machine:
 ## 🖥 Functionalities
 
 #### C
-- Create new Users
+- Create new User
   - POST
 #### R
 - Read a User
@@ -61,7 +61,7 @@ To run this project, you will need of following tools installed on your machine:
 - Update specific User
   - PUT
 #### D
-- Delete User
+- Delete specific User
   - DELETE
 
 > WEB & Postman
